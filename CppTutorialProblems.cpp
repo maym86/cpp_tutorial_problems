@@ -8,8 +8,14 @@
 #include "FileSize.h"
 #include "PermuteString.h"
 #include "LinkedList.h"
+
+#include "DecimalToBinary.h"
+
 int _tmain(int argc, _TCHAR* argv[])
 {
+	cout << DecimalToBinary(120) << endl;
+
+	cout << BinaryToDecimal(DecimalToBinary(120)) << endl;
 
 	LinkedList list;
 	for(int i = 0; i< 10; i++)

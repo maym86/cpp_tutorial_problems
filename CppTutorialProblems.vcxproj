@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CountLines.h" />
+    <ClInclude Include="DecimalToBinary.h" />
     <ClInclude Include="FileSize.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="PermuteString.h" />
@@ -90,6 +91,7 @@
   <ItemGroup>
     <ClCompile Include="CountLines.cpp" />
     <ClCompile Include="CppTutorialProblems.cpp" />
+    <ClCompile Include="DecimalToBinary.cpp" />
     <ClCompile Include="FileSize.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="PermuteString.cpp" />
